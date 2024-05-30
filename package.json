@@ -1,0 +1,16 @@
+{
+  "name": "workerd-module-fallback-syntax-error-module-not-found-repro",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start:ok": "node index.js",
+    "start:ko": "SHOULD_FAIL=true node index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "miniflare": "^3.20240524.0"
+  }
+}
